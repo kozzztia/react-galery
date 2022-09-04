@@ -1,0 +1,67 @@
+.portal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    background: rgba(47, 47, 47, 0.82);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    opacity: 0;
+    transform: scale(0);
+}
+.portalOpen{
+    opacity: 1;
+    transform: scale(1);
+}
+.modal{
+    width:80vw;
+    height:90vh;
+    background: rgba(255, 255, 255, 0.5);
+    position: relative;
+    z-index: 90;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 2px #000;
+    padding:10px;
+}
+.btn{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    z-index: 100;
+    background: none;
+    left:10%;
+    top:0;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.btn>img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: auto;
+    transition: 0.2s;
+    filter: drop-shadow(0px 0px 2px #fff);
+}
+.btn>img:hover{
+    transform: rotate(360deg);
+}
+.btn:hover{
+    transform: scale(1.5);
+
+}
+
+@media (max-width: 600px) {
+    .btn{
+    width: 50px;
+        height: auto;
+}
+}

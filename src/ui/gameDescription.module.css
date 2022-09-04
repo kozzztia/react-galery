@@ -1,0 +1,55 @@
+.GameDescription {
+    padding: 100px 10px 10px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: multiply;
+}
+.GameDescription>*{
+    margin-top: 10px;
+}
+.link{
+    text-align: center;
+    width :100%;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    z-index: 100;
+}
+.slider{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    overflow:hidden ;
+    margin-top: 50px;
+}
+.sliderItem{
+    height: auto;
+    min-width: 100%;
+    position: relative;
+}
+.sliderItem>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: top;
+    padding:5px;
+}
+@media(max-width : 800px){
+    .slider{
+        height: 30%;
+    }
+}
+
+
