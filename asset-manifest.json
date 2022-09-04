@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kozzztia/react-galery.git/app/static/css/main.e307b154.css",
+    "main.js": "/kozzztia/react-galery.git/app/static/js/main.b7f1d9a3.js",
+    "index.html": "/kozzztia/react-galery.git/app/index.html",
+    "main.e307b154.css.map": "/kozzztia/react-galery.git/app/static/css/main.e307b154.css.map",
+    "main.b7f1d9a3.js.map": "/kozzztia/react-galery.git/app/static/js/main.b7f1d9a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e307b154.css",
+    "static/js/main.b7f1d9a3.js"
+  ]
+}
